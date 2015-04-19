@@ -127,11 +127,11 @@ The mean is **`r format(TotalStepsMean, digits=8)`** and median is **`r format(T
 Adding missing values to the original data has increased the mean and median.
 
 1. Before filling in missing values:
-        - Mean: **`r format(StepsMean, digits=8)`**
-        - Median: **`r format(StepsMedian, digits=8)`**
+- Mean: **`r format(StepsMean, digits=8)`**
+- Median: **`r format(StepsMedian, digits=8)`**
 
 2. After filling in missing values:
-        - Mean: **`r format(TotalStepsMean, digits=8)`**
+- Mean: **`r format(TotalStepsMean, digits=8)`**
         - Median: **`r format(TotalStepsMedian, digits=8)`**
 
 #### What is the impact of imputing missing data on the estimates of the total daily number of steps?
@@ -164,4 +164,4 @@ head(TypeOfDayIntervalSteps)
 with(TypeOfDayIntervalSteps, xyplot(Steps ~ Interval | TypeOfDay, TypeOfDayIntervalSteps,type = "l", xlab="Interval", ylab="Number of steps", layout=c(1,2)))
 ```
 
-The above graph shows that activity on the weekday has the greatest peak and the weekends activities has more peaks than weekday. This could be due to additional time available on the weekends.
+The above graph shows that activity on the weekday has the greatest peak perhaps due to higher intensity given the time available. The weekends activities on average has more peaks than weekday. This could be due to additional time available on the weekends.

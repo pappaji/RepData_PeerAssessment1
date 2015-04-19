@@ -225,11 +225,11 @@ The mean is **10784.918** and median is **10909**.
 Adding missing values to the original data has increased the mean and median.
 
 1. Before filling in missing values:
-        - Mean: **10766.189**
-        - Median: **10765**
+- Mean: **10766.189**
+- Median: **10765**
 
 2. After filling in missing values:
-        - Mean: **10784.918**
+- Mean: **10784.918**
         - Median: **10909**
 
 #### What is the impact of imputing missing data on the estimates of the total daily number of steps?
@@ -292,4 +292,4 @@ with(TypeOfDayIntervalSteps, xyplot(Steps ~ Interval | TypeOfDay, TypeOfDayInter
 
 ![](PA1_template_files/figure-html/unnamed-chunk-18-1.png) 
 
-The above graph shows that activity on the weekday has the greatest peak and the weekends activities has more peaks than weekday. This could be due to additional time available on the weekends.
+The above graph shows that activity on the weekday has the greatest peak perhaps due to higher intensity given the time available. The weekends activities on average has more peaks than weekday. This could be due to additional time available on the weekends.
